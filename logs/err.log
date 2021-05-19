@@ -1,0 +1,477 @@
+/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/pandas/compat/__init__.py:97: UserWarning: Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+  warnings.warn(msg)
+/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/conversationhandler.py:251: UserWarning: If 'per_message=False', 'CallbackQueryHandler' will not be tracked for every message.
+  warnings.warn(
+/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/pandas/compat/__init__.py:97: UserWarning: Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+  warnings.warn(msg)
+/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/conversationhandler.py:251: UserWarning: If 'per_message=False', 'CallbackQueryHandler' will not be tracked for every message.
+  warnings.warn(
+/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/pandas/core/strings/accessor.py:101: UserWarning: This pattern has match groups. To actually get the groups, use str.extract.
+  return func(self, *args, **kwargs)
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/dispatcher.py", line 432, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/conversationhandler.py", line 517, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/handler.py", line 156, in handle_update
+    return self.callback(update, context)
+  File "/home/telegrambot/AptekaBot/bot.py", line 201, in global_name
+    update.message.reply_text('Пожалуйста, выберите лекарство из предоставленного списка.', reply_markup=InlineKeyboardMarkup(items))
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/message.py", line 603, in reply_text
+    return self.bot.send_message(self.chat_id, *args, **kwargs)
+  File "<decorator-gen-2>", line 2, in send_message
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/bot.py", line 135, in decorator
+    result = func(*args, **kwargs)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/bot.py", line 458, in send_message
+    return self._message(  # type: ignore[return-value]
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/bot.py", line 281, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/bot.py", line 245, in _post
+    return self.request.post(f'{self.base_url}/{endpoint}', data=data, timeout=timeout)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/utils/request.py", line 349, in post
+    result = self._request_wrapper(
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/utils/request.py", line 272, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Button_data_invalid
+/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/pandas/compat/__init__.py:97: UserWarning: Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+  warnings.warn(msg)
+/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/conversationhandler.py:251: UserWarning: If 'per_message=False', 'CallbackQueryHandler' will not be tracked for every message.
+  warnings.warn(
+/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/pandas/compat/__init__.py:97: UserWarning: Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+  warnings.warn(msg)
+/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/conversationhandler.py:251: UserWarning: If 'per_message=False', 'CallbackQueryHandler' will not be tracked for every message.
+  warnings.warn(
+/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/pandas/compat/__init__.py:97: UserWarning: Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+  warnings.warn(msg)
+/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/conversationhandler.py:251: UserWarning: If 'per_message=False', 'CallbackQueryHandler' will not be tracked for every message.
+  warnings.warn(
+/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/pandas/core/strings/accessor.py:101: UserWarning: This pattern has match groups. To actually get the groups, use str.extract.
+  return func(self, *args, **kwargs)
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/dispatcher.py", line 432, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/conversationhandler.py", line 517, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/handler.py", line 156, in handle_update
+    return self.callback(update, context)
+  File "/home/telegrambot/AptekaBot/bot.py", line 201, in global_name
+    update.message.reply_text('Пожалуйста, выберите лекарство из предоставленного списка.', reply_markup=InlineKeyboardMarkup(items))
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/message.py", line 603, in reply_text
+    return self.bot.send_message(self.chat_id, *args, **kwargs)
+  File "<decorator-gen-2>", line 2, in send_message
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/bot.py", line 135, in decorator
+    result = func(*args, **kwargs)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/bot.py", line 458, in send_message
+    return self._message(  # type: ignore[return-value]
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/bot.py", line 281, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/bot.py", line 245, in _post
+    return self.request.post(f'{self.base_url}/{endpoint}', data=data, timeout=timeout)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/utils/request.py", line 349, in post
+    result = self._request_wrapper(
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/utils/request.py", line 272, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Button_data_invalid
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/dispatcher.py", line 432, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/conversationhandler.py", line 517, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/handler.py", line 156, in handle_update
+    return self.callback(update, context)
+  File "/home/telegrambot/AptekaBot/bot.py", line 201, in global_name
+    update.message.reply_text('Пожалуйста, выберите лекарство из предоставленного списка.', reply_markup=InlineKeyboardMarkup(items))
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/message.py", line 603, in reply_text
+    return self.bot.send_message(self.chat_id, *args, **kwargs)
+  File "<decorator-gen-2>", line 2, in send_message
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/bot.py", line 135, in decorator
+    result = func(*args, **kwargs)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/bot.py", line 458, in send_message
+    return self._message(  # type: ignore[return-value]
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/bot.py", line 281, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/bot.py", line 245, in _post
+    return self.request.post(f'{self.base_url}/{endpoint}', data=data, timeout=timeout)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/utils/request.py", line 349, in post
+    result = self._request_wrapper(
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/utils/request.py", line 272, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Button_data_invalid
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/dispatcher.py", line 432, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/conversationhandler.py", line 517, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/handler.py", line 156, in handle_update
+    return self.callback(update, context)
+  File "/home/telegrambot/AptekaBot/bot.py", line 201, in global_name
+    update.message.reply_text('Пожалуйста, выберите лекарство из предоставленного списка.', reply_markup=InlineKeyboardMarkup(items))
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/message.py", line 603, in reply_text
+    return self.bot.send_message(self.chat_id, *args, **kwargs)
+  File "<decorator-gen-2>", line 2, in send_message
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/bot.py", line 135, in decorator
+    result = func(*args, **kwargs)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/bot.py", line 458, in send_message
+    return self._message(  # type: ignore[return-value]
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/bot.py", line 281, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/bot.py", line 245, in _post
+    return self.request.post(f'{self.base_url}/{endpoint}', data=data, timeout=timeout)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/utils/request.py", line 349, in post
+    result = self._request_wrapper(
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/utils/request.py", line 272, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Button_data_invalid
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/dispatcher.py", line 432, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/conversationhandler.py", line 517, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/handler.py", line 156, in handle_update
+    return self.callback(update, context)
+  File "/home/telegrambot/AptekaBot/bot.py", line 201, in global_name
+    update.message.reply_text('Пожалуйста, выберите лекарство из предоставленного списка.', reply_markup=InlineKeyboardMarkup(items))
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/message.py", line 603, in reply_text
+    return self.bot.send_message(self.chat_id, *args, **kwargs)
+  File "<decorator-gen-2>", line 2, in send_message
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/bot.py", line 135, in decorator
+    result = func(*args, **kwargs)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/bot.py", line 458, in send_message
+    return self._message(  # type: ignore[return-value]
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/bot.py", line 281, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/bot.py", line 245, in _post
+    return self.request.post(f'{self.base_url}/{endpoint}', data=data, timeout=timeout)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/utils/request.py", line 349, in post
+    result = self._request_wrapper(
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/utils/request.py", line 272, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Button_data_invalid
+/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/pandas/compat/__init__.py:97: UserWarning: Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+  warnings.warn(msg)
+/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/conversationhandler.py:251: UserWarning: If 'per_message=False', 'CallbackQueryHandler' will not be tracked for every message.
+  warnings.warn(
+/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/pandas/core/strings/accessor.py:101: UserWarning: This pattern has match groups. To actually get the groups, use str.extract.
+  return func(self, *args, **kwargs)
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/dispatcher.py", line 432, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/conversationhandler.py", line 517, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/handler.py", line 156, in handle_update
+    return self.callback(update, context)
+  File "/home/telegrambot/AptekaBot/bot.py", line 219, in global_name
+    c.execute("INSERT INTO list_after_search VALUES ({}, '{}', '{}','{}','{}',{},'{}','{}','{}','{}','{}','{}') ".format(update.message.chat.id,*i))
+sqlite3.OperationalError: no such column: nan
+/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/pandas/compat/__init__.py:97: UserWarning: Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+  warnings.warn(msg)
+/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/conversationhandler.py:251: UserWarning: If 'per_message=False', 'CallbackQueryHandler' will not be tracked for every message.
+  warnings.warn(
+/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/pandas/core/strings/accessor.py:101: UserWarning: This pattern has match groups. To actually get the groups, use str.extract.
+  return func(self, *args, **kwargs)
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/dispatcher.py", line 432, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/conversationhandler.py", line 517, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/handler.py", line 156, in handle_update
+    return self.callback(update, context)
+  File "/home/telegrambot/AptekaBot/bot.py", line 242, in global_name
+    i[4] = 0
+TypeError: 'tuple' object does not support item assignment
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/dispatcher.py", line 432, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/conversationhandler.py", line 517, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/handler.py", line 156, in handle_update
+    return self.callback(update, context)
+  File "/home/telegrambot/AptekaBot/bot.py", line 242, in global_name
+    i[4] = 0
+TypeError: 'tuple' object does not support item assignment
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/dispatcher.py", line 432, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/conversationhandler.py", line 517, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/handler.py", line 156, in handle_update
+    return self.callback(update, context)
+  File "/home/telegrambot/AptekaBot/bot.py", line 242, in global_name
+    i[4] = 0
+TypeError: 'tuple' object does not support item assignment
+/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/pandas/compat/__init__.py:97: UserWarning: Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+  warnings.warn(msg)
+/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/conversationhandler.py:251: UserWarning: If 'per_message=False', 'CallbackQueryHandler' will not be tracked for every message.
+  warnings.warn(
+/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/pandas/core/strings/accessor.py:101: UserWarning: This pattern has match groups. To actually get the groups, use str.extract.
+  return func(self, *args, **kwargs)
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/dispatcher.py", line 432, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/conversationhandler.py", line 517, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/handler.py", line 156, in handle_update
+    return self.callback(update, context)
+  File "/home/telegrambot/AptekaBot/bot.py", line 228, in global_name
+    update.message.reply_text('Пожалуйста, выберите лекарство из предоставленного списка.', reply_markup=InlineKeyboardMarkup(items))
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/message.py", line 603, in reply_text
+    return self.bot.send_message(self.chat_id, *args, **kwargs)
+  File "<decorator-gen-2>", line 2, in send_message
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/bot.py", line 135, in decorator
+    result = func(*args, **kwargs)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/bot.py", line 458, in send_message
+    return self._message(  # type: ignore[return-value]
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/bot.py", line 281, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/bot.py", line 245, in _post
+    return self.request.post(f'{self.base_url}/{endpoint}', data=data, timeout=timeout)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/utils/request.py", line 349, in post
+    result = self._request_wrapper(
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/utils/request.py", line 272, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Button_data_invalid
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/dispatcher.py", line 432, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/conversationhandler.py", line 517, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/handler.py", line 156, in handle_update
+    return self.callback(update, context)
+  File "/home/telegrambot/AptekaBot/bot.py", line 228, in global_name
+    update.message.reply_text('Пожалуйста, выберите лекарство из предоставленного списка.', reply_markup=InlineKeyboardMarkup(items))
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/message.py", line 603, in reply_text
+    return self.bot.send_message(self.chat_id, *args, **kwargs)
+  File "<decorator-gen-2>", line 2, in send_message
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/bot.py", line 135, in decorator
+    result = func(*args, **kwargs)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/bot.py", line 458, in send_message
+    return self._message(  # type: ignore[return-value]
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/bot.py", line 281, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/bot.py", line 245, in _post
+    return self.request.post(f'{self.base_url}/{endpoint}', data=data, timeout=timeout)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/utils/request.py", line 349, in post
+    result = self._request_wrapper(
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/utils/request.py", line 272, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Button_data_invalid
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/dispatcher.py", line 432, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/conversationhandler.py", line 517, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/handler.py", line 156, in handle_update
+    return self.callback(update, context)
+  File "/home/telegrambot/AptekaBot/bot.py", line 228, in global_name
+    update.message.reply_text('Пожалуйста, выберите лекарство из предоставленного списка.', reply_markup=InlineKeyboardMarkup(items))
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/message.py", line 603, in reply_text
+    return self.bot.send_message(self.chat_id, *args, **kwargs)
+  File "<decorator-gen-2>", line 2, in send_message
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/bot.py", line 135, in decorator
+    result = func(*args, **kwargs)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/bot.py", line 458, in send_message
+    return self._message(  # type: ignore[return-value]
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/bot.py", line 281, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/bot.py", line 245, in _post
+    return self.request.post(f'{self.base_url}/{endpoint}', data=data, timeout=timeout)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/utils/request.py", line 349, in post
+    result = self._request_wrapper(
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/utils/request.py", line 272, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Reply markup is too long
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/dispatcher.py", line 432, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/conversationhandler.py", line 517, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/handler.py", line 156, in handle_update
+    return self.callback(update, context)
+  File "/home/telegrambot/AptekaBot/bot.py", line 228, in global_name
+    update.message.reply_text('Пожалуйста, выберите лекарство из предоставленного списка.', reply_markup=InlineKeyboardMarkup(items))
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/message.py", line 603, in reply_text
+    return self.bot.send_message(self.chat_id, *args, **kwargs)
+  File "<decorator-gen-2>", line 2, in send_message
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/bot.py", line 135, in decorator
+    result = func(*args, **kwargs)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/bot.py", line 458, in send_message
+    return self._message(  # type: ignore[return-value]
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/bot.py", line 281, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/bot.py", line 245, in _post
+    return self.request.post(f'{self.base_url}/{endpoint}', data=data, timeout=timeout)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/utils/request.py", line 349, in post
+    result = self._request_wrapper(
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/utils/request.py", line 272, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Button_data_invalid
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/dispatcher.py", line 432, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/conversationhandler.py", line 517, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/handler.py", line 156, in handle_update
+    return self.callback(update, context)
+  File "/home/telegrambot/AptekaBot/bot.py", line 228, in global_name
+    update.message.reply_text('Пожалуйста, выберите лекарство из предоставленного списка.', reply_markup=InlineKeyboardMarkup(items))
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/message.py", line 603, in reply_text
+    return self.bot.send_message(self.chat_id, *args, **kwargs)
+  File "<decorator-gen-2>", line 2, in send_message
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/bot.py", line 135, in decorator
+    result = func(*args, **kwargs)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/bot.py", line 458, in send_message
+    return self._message(  # type: ignore[return-value]
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/bot.py", line 281, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/bot.py", line 245, in _post
+    return self.request.post(f'{self.base_url}/{endpoint}', data=data, timeout=timeout)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/utils/request.py", line 349, in post
+    result = self._request_wrapper(
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/utils/request.py", line 272, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Button_data_invalid
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/dispatcher.py", line 432, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/conversationhandler.py", line 517, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/handler.py", line 156, in handle_update
+    return self.callback(update, context)
+  File "/home/telegrambot/AptekaBot/bot.py", line 228, in global_name
+    update.message.reply_text('Пожалуйста, выберите лекарство из предоставленного списка.', reply_markup=InlineKeyboardMarkup(items))
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/message.py", line 603, in reply_text
+    return self.bot.send_message(self.chat_id, *args, **kwargs)
+  File "<decorator-gen-2>", line 2, in send_message
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/bot.py", line 135, in decorator
+    result = func(*args, **kwargs)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/bot.py", line 458, in send_message
+    return self._message(  # type: ignore[return-value]
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/bot.py", line 281, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/bot.py", line 245, in _post
+    return self.request.post(f'{self.base_url}/{endpoint}', data=data, timeout=timeout)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/utils/request.py", line 349, in post
+    result = self._request_wrapper(
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/utils/request.py", line 272, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Reply markup is too long
+/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/pandas/compat/__init__.py:97: UserWarning: Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+  warnings.warn(msg)
+/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/conversationhandler.py:251: UserWarning: If 'per_message=False', 'CallbackQueryHandler' will not be tracked for every message.
+  warnings.warn(
+/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/pandas/core/strings/accessor.py:101: UserWarning: This pattern has match groups. To actually get the groups, use str.extract.
+  return func(self, *args, **kwargs)
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/dispatcher.py", line 432, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/conversationhandler.py", line 517, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/handler.py", line 156, in handle_update
+    return self.callback(update, context)
+  File "/home/telegrambot/AptekaBot/bot.py", line 257, in global_name
+    c.execute("SELECT * FROM list_after_search WHERE id={} AND zero='{}' AND nine='{}' AND eight='{}' ".format(update.message.chat.id, i[0], i[9], i[8]))
+sqlite3.OperationalError: near "no": syntax error
+/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/pandas/compat/__init__.py:97: UserWarning: Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+  warnings.warn(msg)
+/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/conversationhandler.py:251: UserWarning: If 'per_message=False', 'CallbackQueryHandler' will not be tracked for every message.
+  warnings.warn(
+/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/pandas/compat/__init__.py:97: UserWarning: Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+  warnings.warn(msg)
+/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/conversationhandler.py:251: UserWarning: If 'per_message=False', 'CallbackQueryHandler' will not be tracked for every message.
+  warnings.warn(
+/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/pandas/core/strings/accessor.py:101: UserWarning: This pattern has match groups. To actually get the groups, use str.extract.
+  return func(self, *args, **kwargs)
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/dispatcher.py", line 432, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/conversationhandler.py", line 517, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/handler.py", line 156, in handle_update
+    return self.callback(update, context)
+  File "/home/telegrambot/AptekaBot/bot.py", line 257, in global_name
+    c.execute("SELECT * FROM list_after_search WHERE id={} AND zero='{}' AND nine='{}' AND eight='{}' ".format(update.message.chat.id, i[0], i[9], i[8]))
+sqlite3.OperationalError: near "s": syntax error
+/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/pandas/compat/__init__.py:97: UserWarning: Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+  warnings.warn(msg)
+/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/conversationhandler.py:251: UserWarning: If 'per_message=False', 'CallbackQueryHandler' will not be tracked for every message.
+  warnings.warn(
+/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/pandas/compat/__init__.py:97: UserWarning: Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+  warnings.warn(msg)
+/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/conversationhandler.py:251: UserWarning: If 'per_message=False', 'CallbackQueryHandler' will not be tracked for every message.
+  warnings.warn(
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/dispatcher.py", line 432, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/conversationhandler.py", line 517, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/handler.py", line 156, in handle_update
+    return self.callback(update, context)
+  File "/home/telegrambot/AptekaBot/bot.py", line 41, in start
+    if update.message.chat.id == int(superadmin):
+ValueError: invalid literal for int() with base 10: '355139380 144776035'
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/dispatcher.py", line 432, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/conversationhandler.py", line 517, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/handler.py", line 156, in handle_update
+    return self.callback(update, context)
+  File "/home/telegrambot/AptekaBot/bot.py", line 41, in start
+    if update.message.chat.id == int(superadmin):
+ValueError: invalid literal for int() with base 10: '355139380 144776035'
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/dispatcher.py", line 432, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/conversationhandler.py", line 517, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/handler.py", line 156, in handle_update
+    return self.callback(update, context)
+  File "/home/telegrambot/AptekaBot/bot.py", line 41, in start
+    if update.message.chat.id == int(superadmin):
+AttributeError: 'NoneType' object has no attribute 'chat'
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/dispatcher.py", line 432, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/conversationhandler.py", line 517, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/handler.py", line 156, in handle_update
+    return self.callback(update, context)
+  File "/home/telegrambot/AptekaBot/bot.py", line 41, in start
+    if update.message.chat.id == int(superadmin):
+ValueError: invalid literal for int() with base 10: '355139380 144776035'
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/dispatcher.py", line 432, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/conversationhandler.py", line 517, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/handler.py", line 156, in handle_update
+    return self.callback(update, context)
+  File "/home/telegrambot/AptekaBot/bot.py", line 41, in start
+    if update.message.chat.id == int(superadmin):
+ValueError: invalid literal for int() with base 10: '355139380 144776035'
+/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/pandas/compat/__init__.py:97: UserWarning: Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+  warnings.warn(msg)
+/home/telegrambot/AptekaBot/env/lib/python3.8/site-packages/telegram/ext/conversationhandler.py:251: UserWarning: If 'per_message=False', 'CallbackQueryHandler' will not be tracked for every message.
+  warnings.warn(
